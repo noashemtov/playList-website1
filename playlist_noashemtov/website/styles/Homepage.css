@@ -1,0 +1,375 @@
+﻿body {
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+}
+
+#homepage {
+    background-image: url('../images/אוזניות.jpg');
+    background-size: cover;
+    border-radius:30px;
+}
+
+#required {
+    color:red;
+}
+
+/*ניווט*/
+.nav {
+    background-color: white;
+    opacity: 0.8;
+    color: white;
+    font-family: Rubik;
+    width: 1180px;
+    height: 70px;
+    position: fixed;
+    text-align: left;
+    top: 0px;
+}
+
+ul li {
+    display: inline-block;
+    font-family:Rubik;
+    margin-top: 15px;
+    padding: 5px;
+    color: black;
+    width: 100px;
+    text-align: center;
+}
+
+.nav ul .homePage:first-child {
+    float: right;
+    margin-top: 12px;
+    padding: 0px 2px;
+    border: none;
+    font-size: 42px;
+    font-family: 'Varela Round';
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.nav ul li:hover {
+    text-decoration: overline;
+}
+
+.nav ul li ul {
+    display: none;
+    position: absolute;
+    padding-right: 0px;
+    margin-top:5px;
+    
+}
+
+.nav ul li ul li {
+        margin:5px;
+        padding-right:5px;
+        text-align:right;
+        width:120px;
+        height:15px;
+        display: block;
+ }
+
+.nav ul li:hover ul {
+    display: block;
+}
+
+.nav ul li ul li:hover {
+    display: block;
+    color: black;
+    text-decoration: underline overline;
+    font-weight: bold;
+}
+
+.notAllowed {
+   cursor: not-allowed;
+}
+
+ /*פריט פירורי לחם*/
+.pirorim {
+    position:relative;
+    top:70px;
+    padding: 5px;
+    font-family: Rubik;
+}
+
+ol li {
+    display: inline-block;
+}
+
+ol li:after {
+content: " / ";
+}
+
+ol li:last-child {
+        color: grey;
+}
+
+ol li:last-child:after {
+   content: "";
+}
+
+/*main*/
+main {
+    margin-top: 70px;
+    width: 1180px;
+    height: auto;
+}
+
+h1 {
+    direction:ltr;
+}
+
+/*כותרת דף בית*/
+#homepageC > h1, #homepageC > h2 {
+    padding: 5px;
+    width: 1180px;
+    padding-right: 15px;
+    text-align: right;
+}
+
+#homepageC > h1 {
+    font-size: 145px;
+    font-family: Rubik;
+    float: right;
+    padding: 8px;
+    padding-top: 450px;
+}
+
+#homepageC > h2 {
+    font-size: 28px;
+    font-family: Rubik;
+    padding-bottom: 200px;
+}
+ 
+/*כותרות קטנות של עמודים פנימיים*/
+.Cotert {
+    border-radius: 10px;
+    padding: 15px;
+    height: auto;
+    background-color: #D4C1EC;
+}
+
+.Cotert h1 {
+    font-size: 85px;
+    text-align: right;
+    font-family: Rubik;
+ }
+
+ .Cotert h2 {
+    font-size: 40px;
+    text-align: right;
+    font-family: Rubik;
+ }
+
+
+/*כותרת עמוד MOOD*/
+#page1C {
+    background-color: #C8E1E4;
+    border-radius: 30px;
+    text-align: center;
+    padding-right: 20px;
+    width: auto;
+    margin: 10px;
+    text-align: right;
+}
+
+#page1C > h1 {
+    font-size: 120px;
+    font-family: Rubik;
+    padding-top: 200px;
+}
+
+#page1C > h2 {
+    font-size: 28px;
+    font-family: Rubik;
+    padding-top:10px;
+    padding-bottom: 250px;
+}
+
+
+/*עמוד MOOD - פלייליסטים*/
+
+.allmood {
+    padding: 2px;
+    margin:10px 75px;
+    display: inline-block;
+}
+
+.mood {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 150px;
+    float: right;
+    position: relative;
+    width: 30%;
+    background-color: #e1eff6;
+}
+.mood > h2, .mood > p {
+        margin: 4px;
+        font-size: 20px;
+        font-family: Rubik;
+        text-decoration: none;
+        padding: 5px;
+}
+    
+.mood > h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+    .mood > h2:hover {
+        font-size: 30px;
+        background-color: #C8E1E4;
+        font-weight: bold;
+    }
+
+
+/*form*/
+#form1 {
+    font-family: Rubik;
+    padding: 10px;
+    text-align:center;
+}
+label {
+    font-family: Rubik;
+}
+
+.input {
+    width:250px;
+}
+
+.inputM {
+    margin-top: 2px 5px;
+}
+
+#form {
+    text-align: center;
+    font-family: Rubik;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: 25px auto;
+    border-radius: 5px;
+    width: 900px;
+}
+
+/*אודות*/
+#logo {
+    text-align: center;
+    position: static;
+    margin: 50px;
+    font-weight:bold;
+    font-family:Rubik;
+}
+
+
+#aboutT {
+    font-family: Rubik;
+    text-align: center;
+    height: 400px;
+}
+
+.pages {
+    margin-top:50px;
+    text-align:center;
+}
+.pages li:hover {
+    font-weight: bold;
+}
+
+#maps {
+    margin: 10px 0px;
+    height: 400px;
+}
+
+/*טבלה*/
+
+#page1-1M {
+    height:600px;
+}
+
+#table-playlist {
+    text-align: center;
+    height: auto;
+    position: relative;
+    margin: 50px auto;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 350px;
+    padding: 10px;
+    font-family: Rubik;
+}
+th {
+    font-size: 22px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Rubik;
+}
+td:first-child {
+    font-size: 22px;
+    padding: 1px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Rubik;
+}
+
+td {
+    font-size: 18px;
+    padding: 1px;
+    text-align: center;
+    font-family: Rubik;
+}
+
+    td:nth-child(2) {
+        font-size: 16px;
+        width: 700px;
+    }
+
+tr:hover {
+    background-color:gainsboro;
+    opacity:0.8;
+}
+
+td > a {
+    text-decoration:none;
+    color:black;
+}
+
+td > a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/*Footer*/
+footer {
+    background-color: whitesmoke;
+    color: black;
+    font-weight: normal;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    height: 30px;
+    width: 1150px;
+    border-radius: 0px 0px 25px 25px;
+    -moz-border-radius-bottomleft: 40px;
+    font-family: Rubik;
+    text-decoration: none;
+}
+

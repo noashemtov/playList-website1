@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>צור קשר - Playlist.</title>
+    <meta name="description" content="contactUs playlist" />
+    <meta name="keywords" content="playlist contact" />
+    <meta name="author" content="נועה שם טוב" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" href="images/211876_play_icon.png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/Homepage.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+
+</head>
+<body>
+    <div class="container" id="contact">
+        <header>
+            <nav class="nav" aria-label="main-nav">
+                <ul>
+                    <li class="homePage"> <a href="index.html"> .Playlist</a></li>
+                    <li>
+                        <a href="moodPlaylist.html">Mood</a>
+                        <ul>
+                            <li id="page1-1"><a href="drivePlaylist.html">בנסיעה</a></li>
+                            <li class="notAllowed">בכפיים</li>
+                            <li class="notAllowed">ברגליים</li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">אודות</a> </li>
+                </ul>
+            </nav>
+            <nav class="pirorim">
+                <ol>
+                    <li>צור קשר</li>
+                </ol>
+            </nav>
+
+        </header>
+
+        <main id="contactM">
+            <div id="contactC" class="Cotert">
+                <h1> שמור על קשר</h1>
+                <h2> בלה בלה בלה בלה בלה </h2>
+            </div>
+            <div id="form">
+                <form id="form1" action="mashov.html" target="_blank">
+                    <label for="firstName">שם פרטי <span id="required"> *</span></label> <br />
+                    <input class="input" type="text" id="firstName" name="firstName" placeholder="שם פרטי" required>
+                    <br><br />
+                    <label for="lastName">שם משפחה <span id="required"> *</span></label> <br />
+                    <input class="input" type="text" id="lastName" name="lastName" placeholder=" שם משפחה " required>
+                    <br><br />
+                        <fieldset>
+                            <legend> מגדר</legend>
+                            <label for="male">
+                                <input class="inputM" type="radio" id="male" name="Gender">זכר
+                            </label><br />
+                            <label for="male">
+                                <input class="inputM" type="radio" id="female" name="Gender">נקבה
+                            </label>
+                        </fieldset>
+                    <br /> <br />
+                    <label for="email"> מייל <span id="required"> *</span></label><br />
+                    <input class="input" type="email" name="email" id="email" placeholder="כתובת מייל" required />
+                    <br><br />
+                    <label for="describe">מה דעתך על האתר?<span id="required"> *</span></label><br />
+                    <textarea class="input" type="text" id="describe" name="describe" required> </textarea>
+                    <br /><br />
+                    <label for="musicStyle">סגנון מוזיקה מועדף <span id="required"> *</span></label><br />
+                    <select class="input" id="musicStyle" name="music">
+                        <option value="pop">פופ</option>
+                        <option value="R&B">R&B</option>
+                        <option value="rock">רוק ומטאל</option>
+                        <option value="blues" selected>בלוז</option>
+                    </select><br /><br />
+                    <input type="submit" value="שלח טופס" required>
+                </form>
+            </div>
+        </main>
+      
+
+        <footer id="contectFooter">
+            <a href="about.html">|אודות האתר|</a>
+            <a href="contactUs.html">|צור קשר|</a>
+            <a href="siteMap.html"> |מפת האתר|</a><br />
+            <span> נעשה שימוש בתמונות מהאתר Unsplash </span>
+        </footer>
+
+    </div>
+</body>
+</html>
